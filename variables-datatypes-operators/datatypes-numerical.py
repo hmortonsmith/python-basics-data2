@@ -35,6 +35,10 @@ print(num_b <= num_c)
 print(num_a == num_b)
 print( num_a == num_c)
 
+# Logical NOT
+print( num_a != num_c)
+
+
 # Casting: changing things into strings or numbers
 str_number = '2049'
 print(type(str_number))
