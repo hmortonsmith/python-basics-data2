@@ -31,7 +31,15 @@ print(num_b < num_c)
 print(num_b >= num_a)
 # Smaller than or equal
 print(num_b <= num_c)
-#Equate
+# Equate
 print(num_a == num_b)
 print( num_a == num_c)
+
+# Long and complex numbers
+
+# Long is an integer of unlimited size
+# Complex are numbers that have an additional +bJ
+    # b is a float
+    # J is sqrt -1
+
 
