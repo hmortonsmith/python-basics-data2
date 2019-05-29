@@ -33,6 +33,14 @@ print(example_text3.lower().strip())
 print(example_text3.lower().strip().capitalize())
 
 # Casting: changing things into strings or numbers
+str_number = '2049'
+print(type(str_number))
+int_number = int('2049')
+print(type(int_number))
+print(type(int(str_number)))
+
+int_number2 = 2079
+print(type(str(int_number2)))
 
 # Lastly
 
