@@ -1,5 +1,6 @@
 # Lists in Python
 # Keep a list of objects ordered by INDEX
+# Lists AKA --> (confusingly) objects in JS
 
 # To declare a list, use [] square brackets
 # Seperate objects using commas
