@@ -40,4 +40,12 @@ print(crazy_cruella_de_ville['skills'])
 crazy_cruella_de_ville['favourite_colour'] = 'black and white'
 print(crazy_cruella_de_ville['favourite_colour'])
 
+# useful methods for dictionaries
+# getting all the keys out (more useful than values - can get values from keys but not other way around)
+keys = crazy_cruella_de_ville.keys()
+print(keys)
+# getting the values out
+values = crazy_cruella_de_ville.values()
+print(values)
+
 
