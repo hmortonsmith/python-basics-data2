@@ -46,7 +46,17 @@ list_evil_people.append(crazy_5)
 # print(list_evil_people[2])
 # print(list_evil_people[2]['address'])
 
-for obj in list_evil_people:
-    print('name:', obj['name'])
-    print('address:', obj['address'])
+for dict in list_evil_people:
+    print(type(dict))
+    for key in dict:
+        print(str(key) + ':', dict[key])
+
+# print each object
+# iterate over each object
+# printed the keys  print(key)
+# print(obj[key])
+
+
+    # print('name:', obj['name'])
+    # print('address:', obj['address'])
 

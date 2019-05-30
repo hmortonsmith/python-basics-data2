@@ -49,3 +49,15 @@ values = crazy_cruella_de_ville.values()
 print(values)
 
 
+# iterating over a hash/ dictionary:
+# using for loop
+
+print(crazy_cruella_de_ville.keys())
+
+# when we iterate over a dictionary we get individual keys
+for placeholder in crazy_cruella_de_ville:
+    # this placeholder is each individual key
+    print(placeholder)
+    # put the placeholder in the dictionary to
+    # extract individual values
+    print(placeholder, ':', crazy_cruella_de_ville[placeholder])

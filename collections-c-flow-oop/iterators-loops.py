@@ -5,6 +5,7 @@
 
 # For Loop
 # syntax
+# <x> is a placeholder
 
 # for <x> in <iterable>:
     #indentated block of code. No end, just end of indentation
