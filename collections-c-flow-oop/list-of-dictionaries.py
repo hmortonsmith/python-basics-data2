@@ -35,13 +35,16 @@ crazy_5 = {
     'skills': ['Ruling', 'Feasting']
 }
 
-print(list_evil_people)
-list_evil_people.append(crazy_1)
-list_evil_people.append(crazy_2)
-list_evil_people.append(crazy_3)
-list_evil_people.append(crazy_4)
-list_evil_people.append(crazy_5)
-print(list_evil_people)
+# print(list_evil_people)
+# list_evil_people.append(crazy_1)
+# list_evil_people.append(crazy_2)
+# list_evil_people.append(crazy_3)
+# list_evil_people.append(crazy_4)
+# list_evil_people.append(crazy_5)
+# print(list_evil_people)
+#
+# print(list_evil_people[2])
+# print(list_evil_people[2]['address'])
 
-print(list_evil_people[2])
-print(list_evil_people[2]['address'])
+for obj in list_evil_people:
+    print('name:', obj('name'))
