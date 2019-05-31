@@ -2,7 +2,8 @@ class Animal:
     origin = 'I am an animal from the animal kingdom.. (on earth)'
     # Class is an object blueprint
     # Stores how it looks (method__init__) and how it behaves (methods)
-
+# Special method that runs initially whenver you create an object of this class
+# Initialization method
     def __init__(self, species, colour = '', loc = ''):
         self.species = species
         self.alive = True
@@ -10,7 +11,7 @@ class Animal:
         self.location = loc
         self.eye = True
         self.lungs = True
-
+        self.cold_blood = False
 
     # Behaviour (method)
     def sleep(self):
