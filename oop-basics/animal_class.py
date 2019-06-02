@@ -7,6 +7,7 @@ class Animal:
         self.colour = colour
         self.age_days = 0
         self.hearts = 1
+        self.cold_blood = False
 
     def __aging(self): ##double underscore makes a method private (encapsulation)
         self.age_days += 1
