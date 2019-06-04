@@ -35,6 +35,4 @@ with open('user_details.csv', newline='') as csv_file:
         print(row)
 
 
-# Transforming and writing to csv
-
 

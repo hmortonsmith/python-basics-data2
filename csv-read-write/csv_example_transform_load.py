@@ -4,7 +4,7 @@ import csv
 # get data and remove gender and title
 # return transformed data
 def transform_user_details(csv_full_name):
-    new_uer_data = []
+    new_user_data = []
 
     with open('user_details.csv', newline='') as csv_file:
         user_details_csv = csv.reader(csv_file, delimiter=',')
@@ -17,8 +17,8 @@ def transform_user_details(csv_full_name):
             # strip it
             # capitalize
             # concatenate
-            new_uer_data.append(transformed_row)
-        return new_uer_data
+            new_user_data.append(transformed_row)
+        return new_user_data
 
 
 new_transformed_data = transform_user_details('user_details.csv')
