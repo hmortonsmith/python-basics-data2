@@ -13,14 +13,14 @@ while True:
     if record is None:
         break
     else:
-        for row in record:
-            useful_data = []
-            useful_data.append(record.CompanyName)
-            useful_data.append(record.ContactName)
-            useful_data.append(record.Address)
-            useful_data.append(record.PostalCode)
-            useful_data.append(record.Phone)
+        useful_data = []
+        useful_data.append(record.CompanyName)
+        useful_data.append(record.ContactName)
+        useful_data.append(record.Address)
+        useful_data.append(record.PostalCode)
+        useful_data.append(record.Phone)
         final_useful_data.append(useful_data)
+
 
 #print(useful_data)
 new_file = open('customer_specific_criteria.csv', 'w', newline='')
@@ -28,8 +28,3 @@ new_file = open('customer_specific_criteria.csv', 'w', newline='')
 with new_file:
     csv_writer = csv.writer(new_file)
     csv_writer.writerows(final_useful_data)
-
-# output = []
-# list_toappen = []
-#
-# output.append(list_toappen)
