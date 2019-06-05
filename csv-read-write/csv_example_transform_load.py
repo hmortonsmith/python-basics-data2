@@ -26,6 +26,7 @@ new_transformed_data = transform_user_details('user_details.csv')
 # let's create a function to write our transformed data
 # write to csv
 
+
 def create_new_csv_user_data(transformed_data, new_user_file_name):
     # have our transformed data
     # open a new file - use option to write
@@ -34,6 +35,7 @@ def create_new_csv_user_data(transformed_data, new_user_file_name):
     with new_file:
         csv_writer = csv.writer(new_file)
         csv_writer.writerows(transformed_data)
+
 
 print(new_transformed_data)
 create_new_csv_user_data(new_transformed_data, 'transformed_csv.csv')
